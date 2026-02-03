@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #nome, #sobrenome {
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" autocomplete="off" method="post">
+        <p><label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required></p>
+        <p><label for="isobrenome">Senha: </label>
+            <input type="password" name="senha" id="isenha" required>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
